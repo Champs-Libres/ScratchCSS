@@ -3,9 +3,6 @@
 
 .sass-cache/
 bower_components/
-fonts/
 node_modules/
 
-stylesheets/sass/contrib/
-stylesheets/scratch.css
 stylesheets/scratch.css.map
