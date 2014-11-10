@@ -8,3 +8,11 @@ ul {
       }
    }
 }
+
+a {
+    color: $base-link-color;
+}
+
+a:hover {
+    color: $hover-link-color;
+}

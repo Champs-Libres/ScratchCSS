@@ -16,6 +16,8 @@ label {
 
    &.required:after {
       content: "*";
+      color: $red;
+      font-weight: 900;
    }
 
    abbr {
@@ -30,7 +32,8 @@ select[multiple=multiple] {
    //@include box-sizing(border-box);
    //@include transition(border-color);
    background-color: white;
-   border-radius: $form-border-radius;
+   @include border-top-radius($form-border-radius);
+   @include border-bottom-radius($form-border-radius);
    border: 1px solid $form-border-color;
    box-shadow: none;
    //box-shadow: $form-box-shadow;

@@ -10,7 +10,8 @@
    vertical-align: middle;
    white-space: nowrap;
    line-height: normal;
-   border-radius: 2px;
+   @include border-top-radius($base-border-radius);
+   @include border-bottom-radius($base-border-radius);
 
    &:hover,
    &:active {
