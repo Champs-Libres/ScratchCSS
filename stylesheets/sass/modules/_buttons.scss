@@ -1,4 +1,4 @@
-.button {
+.sc-button {
    @include button($grey-15, $button-text-color); 
     
    &.blue      { @include button($blue, $white); }
