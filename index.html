@@ -56,7 +56,7 @@
 
    <div class="container">
       <div id="person_wrapper">
-         <div id="general">
+        <div id="general">
             <h1>
                <span class="surname">Caroline</span> 
                <span class="personName">Bah</span>
@@ -64,7 +64,34 @@
 
             <p class="date detail">Née le 12-10-1960</p>
             <p class="nationality detail without_nationality">Nationalité inconnue</p>
-         </div>
+        </div>
+
+        <div class="container">
+            <form name="cl_chill_personbundle_person_creation" method="post" action="/person/review">
+            
+            <h1>Ouverture d&#039;un dossier</h1>
+            
+<div class="grid-4 "><label for="cl_chill_personbundle_person_creation_name" class="required">Nom</label></div><div class="grid-8"><input type="text" id="cl_chill_personbundle_person_creation_name" name="cl_chill_personbundle_person_creation[name]" required="required" class="input wide" /></div>  
+            
+<div class="grid-4 "><label for="cl_chill_personbundle_person_creation_surname" class="required">Prénom</label></div><div class="grid-8"><input type="text" id="cl_chill_personbundle_person_creation_surname" name="cl_chill_personbundle_person_creation[surname]" required="required" class="input wide" /></div>
+            
+<div class="grid-4 "><label for="cl_chill_personbundle_person_creation_dateOfBirth">Date de naissance</label></div><div class="grid-8"><input type="text" id="cl_chill_personbundle_person_creation_dateOfBirth" name="cl_chill_personbundle_person_creation[dateOfBirth]" class="input wide datepicker" /></div>
+            
+<div class="grid-4 "><label class="required">Genre</label></div><div class="grid-8"><div id="cl_chill_personbundle_person_creation_genre"><input type="radio" id="cl_chill_personbundle_person_creation_genre_0" name="cl_chill_personbundle_person_creation[genre]" required="required" value="man" /><label class="inline radio required" for="cl_chill_personbundle_person_creation_genre_0">person.gender.man</label><input type="radio" id="cl_chill_personbundle_person_creation_genre_1" name="cl_chill_personbundle_person_creation[genre]" required="required" value="woman" /><label class="inline radio required" for="cl_chill_personbundle_person_creation_genre_1">person.gender.woman</label></div></div> 
+            
+<div class="grid-4 "><label for="cl_chill_personbundle_person_creation_creation_date" class="required">Date d&#039;ouverture</label></div><div class="grid-8"><input type="text" id="cl_chill_personbundle_person_creation_creation_date" name="cl_chill_personbundle_person_creation[creation_date]" required="required" class="input wide datepicker" value="11-11-2014" /></div>             
+    
+<input type="hidden" id="cl_chill_personbundle_person_creation_form_status" name="cl_chill_personbundle_person_creation[form_status]" class="input wide" value="not_reviewed" /><input type="hidden" id="cl_chill_personbundle_person_creation__token" name="cl_chill_personbundle_person_creation[_token]" class="input wide" value="cILK3VeaIrNVYgpnevvDPkJ-_CGHI92J0KG-UERT6pc" />
+            
+            
+            <div class="form_control">
+                <div class="medium success btn icon-right entypo icon-user-add">
+                    <button type="submit">Ajouter</button>
+                </div>
+            </div>
+    
+</form>
+        </div>
 
          <div id="person_details">
             <section class="container"> 
