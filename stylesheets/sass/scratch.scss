@@ -7,10 +7,8 @@
 @import "config/buttons";
 
 /* etrange pour les forms */
-
-*, *:before, *:after {
-   box-sizing: inherit;
-}
+* { box-sizing: inherit; } 
+html { box-sizing: border-box; }
 
 @import "mixins/buttons";
 @import "mixins/alerts";
