@@ -1,9 +1,4 @@
 .footer {
-  $footer-background: desaturate(darken($base-accent-color, 20), 30);
-  $footer-color: white;
-  $footer-link-color: transparentize($footer-color, .6);
-  $footer-disclaimer-color: transparentize($footer-color, .6);
-
   background: $footer-background;
   //padding: $base-spacing*2 $gutter;
   width: 100%;
