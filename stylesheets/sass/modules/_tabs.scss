@@ -23,7 +23,7 @@ $global-bg-color: $yellow;
          padding: 0.5em;
          padding-left: 1em;
          font-weight: 900;
-         background-color: $red;
+         background-color: $tabs-main-color;
          color: $white;
          @include border-top-radius($base-border-radius);
          @include border-bottom-radius($base-border-radius);
@@ -42,14 +42,14 @@ $global-bg-color: $yellow;
 
          &:hover {
             text-decoration: none;
-            border: 2px solid $red;
-            color: $red;
+            border: 2px solid $tabs-main-color;
+            color: $tabs-main-color;
             @include border-top-radius($base-border-radius);
             @include border-bottom-radius($base-border-radius);
          }
          &:active {
-            border: 2px solid $red;
-            color: $red;
+            border: 2px solid $tabs-main-color;
+            color: $tabs-main-color;
             @include border-top-radius($base-border-radius);
             @include border-bottom-radius($base-border-radius);
          }
