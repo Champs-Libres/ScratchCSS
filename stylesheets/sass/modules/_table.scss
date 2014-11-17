@@ -1,0 +1,19 @@
+table {
+   width: 100%;
+
+   thead th,
+   tbody td,
+   tr td {
+      text-align: left;
+      padding: 0.3em;
+   }
+
+   thead {
+      background-color: $orange;
+      color: #fff;
+   }
+
+   tr:nth-of-type(even) {
+      background-color: $table-tr-even-bg-color;
+   }
+}

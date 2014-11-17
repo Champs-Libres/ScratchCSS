@@ -5,6 +5,7 @@
 @import "config/variables";
 @import "config/colors";
 @import "config/buttons";
+@import "config/table";
 
 /* etrange pour les forms */
 * { box-sizing: inherit; } 
@@ -43,5 +44,6 @@ a {
 @import "modules/forms";
 @import "modules/buttons";
 @import "modules/tabs";
+@import "modules/table";
 
 @import "custom"
