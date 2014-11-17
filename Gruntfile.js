@@ -76,7 +76,7 @@ module.exports = function(grunt) {
       },
       watch: {
          css: {
-            files: [ '<%= scratch.folders.sass.src %>/**/*.scss' ],
+            files: [ '<%= scratch.folders.sass.src %>/*.scss',  '<%= scratch.folders.sass.src %>/**/*.scss' ],
             tasks: ['css'],
             /*
             options: {
