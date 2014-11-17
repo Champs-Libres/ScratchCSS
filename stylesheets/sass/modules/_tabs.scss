@@ -38,6 +38,7 @@ $global-bg-color: $yellow;
          margin: 0;
          color: $black;
          cursor: pointer;
+         border: 2px solid transparent;
 
          &:hover {
             text-decoration: none;
