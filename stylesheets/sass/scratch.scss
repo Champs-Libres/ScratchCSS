@@ -20,6 +20,7 @@ html { box-sizing: border-box; }
 @include gridle_setup((
    context : 12,
    gutter-width : 20px,
+   direction : rtl,
 ));
 
 @include gridle_register_state(mobile , (
