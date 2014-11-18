@@ -17,15 +17,19 @@ html { box-sizing: border-box; }
 
 @import "contrib/gridle/gridle/gridle";
 
-@include gridle_setup( (
-    context : 12,
-    gutter-width : 20px,
-    //direction: ltr,
-    /*
-    direction : rtl,
-    // etc...
-    */
-) );
+@include gridle_setup((
+   context : 12,
+   gutter-width : 20px,
+));
+
+@include gridle_register_state(mobile , (
+   max-width : 400px
+));
+
+@include gridle_register_state(tablet, (
+   min-width : 401px,
+   max-width : 767px, 
+));
 
 @include gridle_generate_classes();
 
