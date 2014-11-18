@@ -110,11 +110,15 @@ form {
          font-size: 1.438em;
          font-weight: 700;
          width: 100%;
-         border-bottom:1px solid #ddd;
+         border-bottom: 3px solid #ddd;
+         margin-bottom: 1em;
 
          & + * {
             -webkit-margin-top-collapse: separate; // webkit hack that makes the legend margins work like they should
-            margin: 2em 0;
+         }
+
+         h2 {
+            margin-bottom: 0;
          }
       }
    }
