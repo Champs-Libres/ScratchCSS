@@ -78,9 +78,10 @@ input[type="file"] {
 }
 
 select {
-   margin-bottom: $base-spacing;
-   max-width: 100%;
-   width: auto;
+   margin-bottom: $base-spacing / 2;
+   padding-top: ($base-spacing / 3) ($base-spacing / 3);
+   padding-bottom: ($base-spacing / 3) ($base-spacing / 3);
+   width: 100%;
 }
 
 form {
