@@ -3397,7 +3397,8 @@ input, label, select {
 label.inline {
   display: inline;
   line-height: 2em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  font-weight: normal; }
 
 label {
   padding-top: 0.5em;
