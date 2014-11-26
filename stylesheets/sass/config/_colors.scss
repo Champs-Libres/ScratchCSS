@@ -17,14 +17,18 @@ $link-focus-color           : $link-color !default;
 $white                      : #fff !default;
 $black                      : #000 !default;
 $orange                     : #FF622C !default;
-$red                        : #FF2C2C !default;
-$green                      : #25D825 !default;
+$red                        : #C83D3D !default;
+$green                      : #27806f !default;
 $blue                       : #2980b9 !default;
 $yellow                     : #FFC82C !default;
+
+$light-blue : #4995C7;
+$llight-blue : #72B0D9;
 $dark-blue                  : #096EB0 !default;
 $ddark-blue                 : #07507F !default;
 
-$blue-green : #27806f;
+$light-green : #419484 !default;
+$llight-green : #6CB3A5 !default;
 
 $warning-bg                 : $orange !default;
 $caution-bg                 : $red !default;
@@ -51,3 +55,8 @@ $grey-20                    : lighten($black, 80%) !default;
 $grey-15                    : lighten($black, 85%) !default;
 $grey-10                    : lighten($black, 90%) !default;
 $grey-5                     : lighten($black, 95%) !default;
+
+
+$dark-grey: $grey-80; //#333;
+$medium-grey: $grey-50; //#999;
+$light-grey: $grey-20; //#DDD;

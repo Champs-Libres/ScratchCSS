@@ -2018,6 +2018,13 @@ th {
 .fa-meanpath:before {
   content: ""; }
 
+/*
+// Flash Colors
+$alert-color: $light-yellow;
+$error-color: $light-red;
+$notice-color: lighten($base-accent-color, 40);
+$success-color: $light-green;
+*/
 /* etrange pour les forms */
 * {
   box-sizing: inherit; }
@@ -3152,7 +3159,7 @@ a:hover {
   color: #1b557a; }
 
 .navigation {
-  background-color: #333;
+  background-color: #333333;
   border-bottom: 1px solid #1a1a1a;
   height: 60px;
   z-index: 999; }
@@ -3171,7 +3178,7 @@ a:hover {
     margin: 0;
     padding: 0; }
   .navigation ul li.nav-link {
-    background: #333;
+    background: #333333;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -3254,7 +3261,7 @@ a:hover {
         display: inline-block;
         text-align: right;
         width: 100%;
-        background-color: #333;
+        background-color: #333333;
         padding-left: 1em;
         text-align: left; }
   .navigation .navigation-search {
@@ -3285,7 +3292,7 @@ html, body {
   min-height: 85%; }
 
 .footer {
-  background: #27806F;
+  background: #4995C7;
   width: 100%; }
   .footer .footer-logo {
     text-align: center;
@@ -3363,15 +3370,15 @@ html, body {
     text-align: center; }
 
 .success {
-  background: rgba(37, 216, 37, 0.2);
-  color: #25D825;
+  background: rgba(39, 128, 111, 0.2);
+  color: #27806f;
   font-weight: bold;
   margin-bottom: 0.75em;
   padding: 0.75em; }
 
 .error {
-  background: rgba(255, 44, 44, 0.2);
-  color: #FF2C2C;
+  background: rgba(200, 61, 61, 0.2);
+  color: #C83D3D;
   font-weight: bold;
   margin-bottom: 0.75em;
   padding: 0.75em; }
@@ -3413,7 +3420,7 @@ label {
   margin-bottom: 0.375em; }
   label.required:after {
     content: "*";
-    color: #FF2C2C;
+    color: #C83D3D;
     font-weight: 900; }
   label abbr {
     display: none; }
@@ -3426,7 +3433,7 @@ select[multiple=multiple] {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  border: 1px solid #DDD;
+  border: 1px solid #cccccc;
   box-shadow: none;
   /*font-family: $form-font-family;
   font-size: $form-font-size; */
@@ -3436,7 +3443,7 @@ select[multiple=multiple] {
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    border-color: #c4c4c4; }
+    border-color: #b3b3b3; }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
@@ -3545,7 +3552,7 @@ form li label {
         box-shadow: none; }
   .sc-button.green {
     color: #fff;
-    background: #25D825;
+    background: #27806f;
     border: medium none;
     box-shadow: none;
     padding: 8px 12px;
@@ -3560,14 +3567,14 @@ form li label {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
     .sc-button.green:hover, .sc-button.green:active {
-      background: #21c221;
+      background: #216c5e;
       color: #fff;
       text-decoration: none; }
     .sc-button.green:focus {
-      background: #21c221; }
+      background: #216c5e; }
     .sc-button.green[disabled] {
-      background: rgba(37, 216, 37, 0.6);
-      color: #1eac1e; }
+      background: rgba(39, 128, 111, 0.6);
+      color: #1b594d; }
       .sc-button.green[disabled]:hover {
         box-shadow: none; }
   .sc-button.orange {
@@ -3599,7 +3606,7 @@ form li label {
         box-shadow: none; }
   .sc-button.red {
     color: #fff;
-    background: #FF2C2C;
+    background: #C83D3D;
     border: medium none;
     box-shadow: none;
     padding: 8px 12px;
@@ -3614,14 +3621,14 @@ form li label {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
     .sc-button.red:hover, .sc-button.red:active {
-      background: #ff1313;
+      background: #b73434;
       color: #fff;
       text-decoration: none; }
     .sc-button.red:focus {
-      background: #ff1313; }
+      background: #b73434; }
     .sc-button.red[disabled] {
-      background: rgba(255, 44, 44, 0.6);
-      color: #f80000; }
+      background: rgba(200, 61, 61, 0.6);
+      color: #a42e2e; }
       .sc-button.red[disabled]:hover {
         box-shadow: none; }
   .sc-button.black {
