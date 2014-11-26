@@ -3292,7 +3292,7 @@ html, body {
   min-height: 85%; }
 
 .footer {
-  background: #666666;
+  background: gray;
   width: 100%; }
   .footer .footer-logo {
     text-align: center;
