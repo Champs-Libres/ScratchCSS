@@ -23,7 +23,6 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #2980b9;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #DDD;
@@ -65,7 +64,7 @@ $form-font-size: $base-font-size;
 //$form-font-family: $base-font-family;
 
 // Footer
-$footer-background: desaturate(darken($base-accent-color, 20), 30);
+$footer-background: #27806F;// desaturate(darken($base-accent-color, 20), 30);
 $footer-color: white;
 $footer-link-color: transparentize($footer-color, .6);
 $footer-disclaimer-color: transparentize($footer-color, .6);
