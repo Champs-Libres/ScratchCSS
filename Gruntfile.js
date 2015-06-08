@@ -71,7 +71,7 @@ module.exports = function(grunt) {
                src: ['*.scss'],
                dest: '<%= scratch.folders.css.dist %>',
                ext: '.css'
-            }]
+            }],
          }
       },
       watch: {
