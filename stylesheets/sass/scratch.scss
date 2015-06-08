@@ -38,15 +38,6 @@ html { box-sizing: border-box; }
 
 @import "modules/typography";
 @import "modules/navigation";
-
-a {
-   text-decoration: none;
-}
-
-.text-right {
-   text-align: right;
-}
-
 @import "modules/content";
 @import "modules/footer";
 @import "modules/alerts";

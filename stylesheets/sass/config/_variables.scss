@@ -62,3 +62,5 @@ $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20
 $footer-color: white;
 $footer-link-color: transparentize($footer-color, .6);
 $footer-disclaimer-color: transparentize($footer-color, .6);
+
+@import "../custom/config/variables";

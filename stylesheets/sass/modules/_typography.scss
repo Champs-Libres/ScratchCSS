@@ -11,8 +11,13 @@ ul {
 
 a {
     color: $base-link-color;
+    text-decoration: none;
+
+    &:hover {
+    	color: $hover-link-color;
+    }
 }
 
-a:hover {
-    color: $hover-link-color;
+.text-right {
+   text-align: right;
 }
