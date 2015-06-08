@@ -56,7 +56,7 @@ module.exports = function(grunt) {
          },
          bourbon: {
             files: [{
-               cwd: '<%= scratch.folders.bower %>bourbon/dist/',
+               cwd: '<%= scratch.folders.bower %>bourbon/app/assets/stylesheets/',
                src: '**',
                dest: '<%= scratch.folders.sass.contrib %>/bourbon/',
                expand: true,
