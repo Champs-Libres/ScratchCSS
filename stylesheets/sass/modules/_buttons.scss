@@ -8,3 +8,5 @@
    &.black     { @include button($grey-90, $white); }
    &.white     { @include button($white, $text-color); }
 }
+
+@import "../custom/modules/buttons";
