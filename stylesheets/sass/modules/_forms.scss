@@ -43,7 +43,7 @@ select[multiple=multiple] {
    background-color: white;
    @include border-top-radius($form-border-radius);
    @include border-bottom-radius($form-border-radius);
-   border: 1px solid $form-border-color;
+   border: $form-border-size solid $form-border-color;
    box-shadow: none;
    //box-shadow: $form-box-shadow;
    /*font-family: $form-font-family;
