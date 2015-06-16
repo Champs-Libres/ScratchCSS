@@ -57,6 +57,17 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color
 $form-font-size: $base-font-size;
 //$form-font-family: $base-font-family;
 
+// Navigation
+$navigation-padding: 1em;
+$navigation-background: $dark-grey;
+$navigation-color: transparentize(white, 0.3);
+$navigation-color-hover: white;
+$navigation-height: 60px;
+$navigation-active-link-color: transparentize(white, 0.5);
+$navigation-submenu-padding: 1em;
+$navigation-submenu-width: 12em;
+$navigation-border-radius: $base-border-radius;
+
 // Footer
 $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);
 $footer-color: white;
