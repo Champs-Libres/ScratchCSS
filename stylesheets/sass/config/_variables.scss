@@ -68,6 +68,8 @@ $navigation-active-link-color: transparentize(white, 0.5);
 $navigation-submenu-padding: 1em;
 $navigation-submenu-width: 12em;
 $navigation-border-radius: $base-border-radius;
+$navigation-first-padding-top: 1em;
+$navigation-last-padding-bottom: 0.7em;
 
 // Footer
 $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);

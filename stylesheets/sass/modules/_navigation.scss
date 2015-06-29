@@ -102,7 +102,7 @@
       // }
 
       > ul > li:first-child a  {
-         padding-top: 1em;
+         padding-top: $navigation-first-padding-top;
       }
 
       a {
@@ -186,7 +186,7 @@
          &:last-child > a {
             border-bottom-left-radius: $navigation-border-radius;
             border-bottom-right-radius: $navigation-border-radius;
-            padding-bottom: .7em;
+            padding-bottom: $navigation-last-padding-bottom;
          }
       //}
 
