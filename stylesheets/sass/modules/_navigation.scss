@@ -154,12 +154,11 @@
 
    ul.submenu {
       display: none;
-      padding-left: 0;
-
+      padding-left: $navigation-ul-submenu-padding-left;
       //@include media($horizontal-bar-mode) {
       left: -$navigation-submenu-padding;
       position: absolute;
-      top: 1.5em;
+      top: $navigation-ul-submenu-top;
       //}
 
       .submenu {

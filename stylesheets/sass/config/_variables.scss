@@ -71,8 +71,9 @@ $navigation-border-radius: $base-border-radius;
 $navigation-first-padding-top: 1em;
 $navigation-last-padding-bottom: 0.7em;
 $navigation-more-pin: '\25BE';
-$navigation-more-pin-color: red;
-
+$navigation-more-pin-color: $navigation-color;
+$navigation-ul-submenu-top: 1.5em;
+$navigation-ul-submenu-padding-left: 0;
 // Footer
 $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);
 $footer-color: white;

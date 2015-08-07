@@ -3356,7 +3356,7 @@ a {
       bottom: auto;
       left: auto;
       content: "▾";
-      color: red; }
+      color: rgba(255, 255, 255, 0.7); }
   .navigation li.more {
     overflow: visible;
     padding-right: 0;
@@ -3426,7 +3426,7 @@ a {
     z-index: 9999; }
     .navigation ul li.nav-link2 a.more:after {
       content: "▾";
-      color: red;
+      color: rgba(255, 255, 255, 0.7);
       padding-left: 0.4em;
       font-size: 1.2em; }
     .navigation ul li.nav-link2 div.multiple_lines {
