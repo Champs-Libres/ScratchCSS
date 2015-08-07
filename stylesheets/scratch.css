@@ -3304,7 +3304,7 @@ a {
       vertical-align: middle; }
   .navigation .nav {
     z-index: 9999999; }
-  .navigation ul#navigation-menu {
+  .navigation ul.navigation-menu {
     -webkit-transform-style: preserve-3d;
     clear: both;
     display: none;
@@ -3316,7 +3316,8 @@ a {
     display: inline;
     margin: 0;
     padding: 0; }
-  .navigation ul li.nav-link {
+  .navigation ore
+  ul li.nav-link {
     background: #333333;
     display: block;
     line-height: 60px;
@@ -3330,12 +3331,14 @@ a {
     line-height: 60px;
     text-decoration: none;
     width: auto; }
-    .navigation ul li.nav-link a {
+    .navigation ore
+    ul li.nav-link a {
       color: rgba(255, 255, 255, 0.7);
       display: inline-block;
       font-weight: 400;
       padding-right: 1em; }
-      .navigation ul li.nav-link a:hover {
+      .navigation ore
+      ul li.nav-link a:hover {
         color: white; }
   .navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -3355,8 +3358,8 @@ a {
       right: -0.4em;
       bottom: auto;
       left: auto;
-      content: '\25BE';
-      color: rgba(255, 255, 255, 0.7); }
+      content: "▾";
+      color: red; }
   .navigation li.more {
     overflow: visible;
     padding-right: 0;
@@ -3394,7 +3397,7 @@ a {
       .navigation ul.submenu li:last-child > a {
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
-        padding-bottom: .7em; }
+        padding-bottom: 0.7em; }
       .navigation ul.submenu li a {
         background-color: #2b2b2b;
         display: inline-block;
@@ -3417,6 +3420,46 @@ a {
       position: absolute;
       top: .99em;
       right: 1em; }
+  .navigation ul li.nav-link2 {
+    position: relative;
+    display: inline-block;
+    padding-right: 2em;
+    text-align: left;
+    line-height: 60px; }
+    .navigation ul li.nav-link2 a.more:after {
+      content: "▾";
+      color: red;
+      padding-left: 0.4em;
+      font-size: 1.2em; }
+    .navigation ul li.nav-link2 div.multiple_lines {
+      display: inline-block;
+      line-height: normal;
+      vertical-align: middle; }
+    .navigation ul li.nav-link2 ul {
+      display: none;
+      position: absolute;
+      line-height: normal;
+      list-style: none;
+      background-color: #333;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
+      width: 100%; }
+    .navigation ul li.nav-link2 ul li {
+      padding-top: 0.7em;
+      padding-bottom: 0.7em; }
+      .navigation ul li.nav-link2 ul li:first-child {
+        padding-top: 1em; }
+      .navigation ul li.nav-link2 ul li:last-child {
+        padding-bottom: 1em; }
+    .navigation ul li.nav-link2:hover ul {
+      display: block; }
+    .navigation ul li.nav-link2 a {
+      display: inline-block;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 400; }
+      .navigation ul li.nav-link2 a:hover {
+        color: white; }
 
 html, body {
   height: 100%; }
@@ -3426,6 +3469,8 @@ html, body {
 
 .footer {
   background: gray;
+  padding-top: 0;
+  padding-bottom: 0;
   width: 100%; }
   .footer .footer-logo {
     text-align: center;

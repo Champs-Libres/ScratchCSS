@@ -35,7 +35,7 @@
       //float: none;
    }
 
-   ul#navigation-menu {    
+   ul.navigation-menu {    
       -webkit-transform-style: preserve-3d; // stop webkit flicker
       clear: both;
       display: none;
@@ -45,14 +45,12 @@
       width: 100%;
       z-index: 9999;
 
-
       //@include media ($horizontal-bar-mode) {
       display: inline;
       margin: 0;
       padding: 0;
       //}
-   }
-
+   }ore
 
    // The nav items
    ul li.nav-link {
@@ -115,8 +113,8 @@
 
       > a:after {
          @include position(absolute, auto -.4em auto auto);
-         content: '\25BE';
-         color: $navigation-color;
+         content: $navigation-more-pin;
+         color: $navigation-more-pin-color;
       }
    }
 
@@ -230,6 +228,68 @@
          position: absolute;
          top: .99em;
          right: 1em;
+      }
+   }
+
+   ul li.nav-link2 {
+         position: relative;
+         display: inline-block;
+         padding-right: 2em;
+         text-align: left;
+         line-height: $navigation-height;
+
+         & a.more:after {
+            content: $navigation-more-pin;
+            color: $navigation-more-pin-color;
+            padding-left: 0.4em;
+            font-size: 1.2em;
+         }
+
+         & div.multiple_lines {
+            display: inline-block;
+            line-height: normal;
+            vertical-align: middle;
+         }
+
+          ul {
+            display: none;
+            position: absolute;
+            line-height: normal;
+            list-style: none;
+            background-color: #333;
+            padding-right: 1.5em;
+            padding-left: 1.5em;
+            width: 100%;
+         }
+
+         ul {
+            li {
+               padding-top:0.7em;
+               padding-bottom:0.7em;
+
+               &:first-child {
+                  padding-top: $navigation-first-padding-top;
+               }
+
+               &:last-child {
+                  padding-bottom: $navigation-first-padding-top;
+               }
+            }
+         }
+
+      &:hover ul {
+         display: block;
+      }
+
+      a {
+         display: inline-block;
+         width: 100%;
+         color: $navigation-color;
+         font-weight: 400;
+         
+         &:hover {
+            color: $navigation-color-hover;
+         }
       }
    }
 }
