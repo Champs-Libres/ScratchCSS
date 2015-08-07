@@ -3316,8 +3316,7 @@ a {
     display: inline;
     margin: 0;
     padding: 0; }
-  .navigation ore
-  ul li.nav-link {
+  .navigation ul li.nav-link {
     background: #333333;
     display: block;
     line-height: 60px;
@@ -3331,14 +3330,12 @@ a {
     line-height: 60px;
     text-decoration: none;
     width: auto; }
-    .navigation ore
-    ul li.nav-link a {
+    .navigation ul li.nav-link a {
       color: rgba(255, 255, 255, 0.7);
       display: inline-block;
       font-weight: 400;
       padding-right: 1em; }
-      .navigation ore
-      ul li.nav-link a:hover {
+      .navigation ul li.nav-link a:hover {
         color: white; }
   .navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
