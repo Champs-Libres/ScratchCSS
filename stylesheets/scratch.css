@@ -3422,7 +3422,8 @@ a {
     display: inline-block;
     padding-right: 2em;
     text-align: left;
-    line-height: 60px; }
+    line-height: 60px;
+    z-index: 9999; }
     .navigation ul li.nav-link2 a.more:after {
       content: "▾";
       color: red;

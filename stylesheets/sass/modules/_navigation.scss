@@ -237,6 +237,7 @@
          padding-right: 2em;
          text-align: left;
          line-height: $navigation-height;
+         z-index: 9999;
 
          & a.more:after {
             content: $navigation-more-pin;
