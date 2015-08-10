@@ -232,23 +232,24 @@
 
    ul li.nav-link2 {
          position: relative;
-         display: inline-block;
          padding-right: 2em;
          text-align: left;
          line-height: $navigation-height;
          z-index: 9999;
+         float: left;
+         list-style: none;
 
-         & a.more:after {
-            content: $navigation-more-pin;
-            color: $navigation-more-pin-color;
-            padding-left: 0.4em;
-            font-size: 1.2em;
-         }
-
-         & div.multiple_lines {
+         & div.li-content {
             display: inline-block;
             line-height: normal;
             vertical-align: middle;
+
+            a.more:after {
+               content: $navigation-more-pin;
+               color: $navigation-more-pin-color;
+               padding-left: 0.4em;
+               font-size: 1.2em;
+            }
          }
 
           ul {
@@ -282,7 +283,6 @@
       }
 
       a {
-         display: inline-block;
          width: 100%;
          color: $navigation-color;
          font-weight: 400;

@@ -3419,20 +3419,21 @@ a {
       right: 1em; }
   .navigation ul li.nav-link2 {
     position: relative;
-    display: inline-block;
     padding-right: 2em;
     text-align: left;
     line-height: 60px;
-    z-index: 9999; }
-    .navigation ul li.nav-link2 a.more:after {
-      content: "▾";
-      color: rgba(255, 255, 255, 0.7);
-      padding-left: 0.4em;
-      font-size: 1.2em; }
-    .navigation ul li.nav-link2 div.multiple_lines {
+    z-index: 9999;
+    float: left;
+    list-style: none; }
+    .navigation ul li.nav-link2 div.li-content {
       display: inline-block;
       line-height: normal;
       vertical-align: middle; }
+      .navigation ul li.nav-link2 div.li-content a.more:after {
+        content: "▾";
+        color: rgba(255, 255, 255, 0.7);
+        padding-left: 0.4em;
+        font-size: 1.2em; }
     .navigation ul li.nav-link2 ul {
       display: none;
       position: absolute;
@@ -3452,7 +3453,6 @@ a {
     .navigation ul li.nav-link2:hover ul {
       display: block; }
     .navigation ul li.nav-link2 a {
-      display: inline-block;
       width: 100%;
       color: rgba(255, 255, 255, 0.7);
       font-weight: 400; }
