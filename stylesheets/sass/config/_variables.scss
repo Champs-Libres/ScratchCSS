@@ -74,6 +74,7 @@ $navigation-more-pin-color: $navigation-color;
 $navigation-ul-submenu-top: 1.5em;
 $navigation-ul-submenu-padding-left: 0;
 $navigation-search-padding: .85em .6em;
+$navigation-border-bottom: 1px solid darken($navigation-background, 10);
 
 // Footer
 $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);

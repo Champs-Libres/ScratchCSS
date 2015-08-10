@@ -7,7 +7,7 @@
    //$horizontal-bar-mode: $large-screen;
 
    background-color: $navigation-background;
-   border-bottom: 1px solid darken($navigation-background, 10);
+   border-bottom: $navigation-border-bottom;
    height: $navigation-height;
    //width: 100%;
    z-index: 999;
