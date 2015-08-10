@@ -59,7 +59,6 @@ $form-font-size: $base-font-size;
 //$form-font-family: $base-font-family;
 
 // Navigation
-$navigation-padding: 1em;
 $navigation-background: $dark-grey;
 $navigation-color: transparentize(white, 0.3);
 $navigation-color-hover: white;
@@ -74,6 +73,8 @@ $navigation-more-pin: '\25BE';
 $navigation-more-pin-color: $navigation-color;
 $navigation-ul-submenu-top: 1.5em;
 $navigation-ul-submenu-padding-left: 0;
+$navigation-search-padding: .85em .6em;
+
 // Footer
 $footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);
 $footer-color: white;

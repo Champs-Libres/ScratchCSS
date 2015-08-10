@@ -3404,7 +3404,7 @@ a {
         padding-left: 1em;
         text-align: left; }
   .navigation .navigation-search {
-    padding: .85em .6em;
+    padding: 0.85em 0.6em;
     position: relative; }
     .navigation .navigation-search input[type=search] {
       padding: .6em .55em;

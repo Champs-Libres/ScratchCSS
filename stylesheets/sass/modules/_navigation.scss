@@ -205,7 +205,7 @@
 
   // Elements on the far right
    .navigation-search {
-      padding: .85em .6em; 
+      padding: $navigation-search-padding;
       position: relative;
 
       input[type=search] {
