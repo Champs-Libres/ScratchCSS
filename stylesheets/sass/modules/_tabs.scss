@@ -7,10 +7,8 @@ $default-color: $green;
 $global-bg-color: $yellow;
 
 .tab-nav {
-   margin: 0;
+   margin: 0.5em 0;
    padding: 0;
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;
 
    > li {
       display: inline-block;
@@ -18,36 +16,30 @@ $global-bg-color: $yellow;
       cursor: default;
       @include border-top-radius($base-border-radius);
       @include border-bottom-radius($base-border-radius);
+      margin-bottom: $tabs-nav-margin-bottom;
 
       &.title {
-         padding: 0.5em;
-         padding-left: 1em;
+         padding: 0.5em 0.5em 0.5em 1em;
          font-weight: 900;
-         background-color: $tabs-main-color;
-         color: $white;
-         @include border-top-radius($base-border-radius);
-         @include border-bottom-radius($base-border-radius);
+         background-color: $tabs-nav-title-bg-color;
+         color: $tabs-nav-title-text-color;
       }
 
       > a  {
          display: block;
          width: auto;
-
-         padding: 0.5em;
-         padding-left: 1.5em;
+         padding: 0.5em 0.5em 0.5em 1.5em;
          margin: 0;
-         color: $black;
+         color: $tabs-nav-text-color;
          cursor: pointer;
-         border: 3px solid transparent;
+         border: $tabs-new-border;
+         background-color: $tabs-nav-bg-color;
+         @include border-top-radius($base-border-radius);
+         @include border-bottom-radius($base-border-radius);
 
          &:hover, &:active {  
-            border: 3px solid $tabs-main-color;
-            //color: $tabs-main-color;
-            @include border-top-radius($base-border-radius);
-            @include border-bottom-radius($base-border-radius);  
-         }
-
-         &:hover {
+            border: $tabs-nav-hover-border;
+            color: $tabs-nav-hover-text-color;
             text-decoration: none;
          }
       }

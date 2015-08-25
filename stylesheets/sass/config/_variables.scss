@@ -83,4 +83,14 @@ $footer-link-color: transparentize($footer-color, .6);
 $footer-disclaimer-color: transparentize($footer-color, .6);
 $footer-vertical-padding: 0;
 
+//Tabs
+$tabs-nav-margin-bottom: none;
+$tabs-nav-title-bg-color: $blue;
+$tabs-nav-title-text-color: $white;
+$tabs-nav-bg-color: none;
+$tabs-nav-text-color: inherit;
+$tabs-new-border: 3px solid transparent;
+$tabs-nav-hover-border: 3px solid $orange;
+$tabs-nav-hover-text-color: inherit;
+
 @import "../custom/config/variables";
