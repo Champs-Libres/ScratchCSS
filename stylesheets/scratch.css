@@ -3843,6 +3843,7 @@ form li label {
   margin: 0.5em 0;
   padding: 0; }
   .tab-nav > li {
+    font-family: unset;
     display: inline-block;
     width: 100%;
     cursor: default;
