@@ -87,11 +87,13 @@ $footer-vertical-padding: 0;
 $tabs-nav-margin-bottom: none;
 $tabs-nav-title-bg-color: $blue;
 $tabs-nav-title-text-color: $white;
+$tabs-nav-title-padding: 0.5em 0.5em 0.5em 1em;
 $tabs-nav-bg-color: none;
 $tabs-nav-text-color: inherit;
 $tabs-new-border: 3px solid transparent;
 $tabs-nav-hover-border: 3px solid $orange;
 $tabs-nav-hover-text-color: inherit;
 $tabs-nav-font-family: unset;
+$tabs-nav-padding: 0.5em 0.5em 0.5em 1.5em;
 
 @import "../custom/config/variables";

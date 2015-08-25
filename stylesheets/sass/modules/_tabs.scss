@@ -20,7 +20,7 @@ $global-bg-color: $yellow;
       margin-bottom: $tabs-nav-margin-bottom;
 
       &.title {
-         padding: 0.5em 0.5em 0.5em 1em;
+         padding: $tabs-nav-title-padding;
          font-weight: 900;
          background-color: $tabs-nav-title-bg-color;
          color: $tabs-nav-title-text-color;
@@ -29,7 +29,7 @@ $global-bg-color: $yellow;
       > a  {
          display: block;
          width: auto;
-         padding: 0.5em 0.5em 0.5em 1.5em;
+         padding: $tabs-nav-padding;
          margin: 0;
          color: $tabs-nav-text-color;
          cursor: pointer;
