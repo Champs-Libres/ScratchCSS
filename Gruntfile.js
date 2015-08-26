@@ -98,8 +98,8 @@ module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-watch');
    grunt.loadNpmTasks('grunt-contrib-clean');
 
-   grunt.registerTask('css', ['clean:css', 'sass'])
-   grunt.registerTask('dependencies', ['bower', 'clean:sasscontrib', 'copy'])
+   grunt.registerTask('css', ['clean:css', 'sass']);
+   grunt.registerTask('dependencies', ['bower', 'clean:sasscontrib', 'copy']);
    //The default task
    grunt.registerTask('default', ['dependencies', 'css']);
 };
