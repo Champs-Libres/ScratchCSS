@@ -3877,15 +3877,20 @@ form li label {
 
 table {
   width: 100%; }
-  table thead th,
-  table tbody td,
-  table tr td {
-    text-align: left;
-    padding: 0.3em; }
   table thead {
     background-color: #FF622C;
     color: #fff; }
-  table tr:nth-of-type(even) {
+    table thead tr th {
+      border: unset;
+      text-align: center;
+      padding: 0.3em; }
+  table tbody tr td {
+    border: unset;
+    text-align: left;
+    padding: 0.3em; }
+  table tbody tr:nth-of-type(even) {
     background-color: #f2f2f2; }
+  table tbody tr:nth-of-type(odd) {
+    background-color: unset; }
 
 /*# sourceMappingURL=scratch.css.map */

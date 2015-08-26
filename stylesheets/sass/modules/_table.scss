@@ -1,19 +1,32 @@
 table {
-   width: 100%;
-
-   thead th,
-   tbody td,
-   tr td {
-      text-align: left;
-      padding: 0.3em;
-   }
+   width: $table-width;
 
    thead {
-      background-color: $orange;
+      background-color: $table-head-bg-color;
       color: #fff;
+
+      tr th {
+         border: $table-head-td-border;
+         text-align: $table-head-td-text-align;
+         padding: $table-head-td-padding;
+      }
    }
 
-   tr:nth-of-type(even) {
-      background-color: $table-tr-even-bg-color;
+   tbody {
+      tr {
+         td {
+            border: $table-body-td-border;
+            text-align: $table-body-td-text-align;
+            padding: $table-body-td-padding;
+         }
+
+         &:nth-of-type(even) {
+            background-color: $table-body-tr-bg-color-even;
+         }
+
+         &:nth-of-type(odd) {
+            background-color: $table-body-tr-bg-color-odd;
+         }
+      }
    }
 }

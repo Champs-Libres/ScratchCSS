@@ -47,6 +47,13 @@ $success-color: $light-green;
 $base-border-color: $light-grey;
 $base-border: 1px solid $base-border-color;
 
+// Footer
+$footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);
+$footer-color: white;
+$footer-link-color: transparentize($footer-color, .6);
+$footer-disclaimer-color: transparentize($footer-color, .6);
+$footer-vertical-padding: 0;
+
 // Forms
 $form-border-size: 1px;
 $form-border-color: $base-border-color;
@@ -76,12 +83,21 @@ $navigation-ul-submenu-padding-left: 0;
 $navigation-search-padding: .85em .6em;
 $navigation-border-bottom: 1px solid darken($navigation-background, 10);
 
-// Footer
-$footer-background: $grey-50;//-blue;// desaturate(darken($base-accent-color, 20), 30);
-$footer-color: white;
-$footer-link-color: transparentize($footer-color, .6);
-$footer-disclaimer-color: transparentize($footer-color, .6);
-$footer-vertical-padding: 0;
+//Table
+$table-width: 100%;
+
+$table-head-bg-color: $orange;
+$table-head-td-border: unset;
+$table-head-td-text-align: center;
+$table-head-td-padding: 0.3em;
+
+$table-body-tr-bg-color-even: $grey-5;
+$table-body-tr-bg-color-odd: unset;
+$table-body-td-border: unset;
+$table-body-td-text-align: left;
+$table-body-td-padding: 0.3em;
+
+
 
 //Tabs
 $tabs-nav-margin-bottom: none;
