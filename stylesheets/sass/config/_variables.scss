@@ -90,14 +90,14 @@ $table-head-bg-color: $orange;
 $table-head-td-border: unset;
 $table-head-td-text-align: center;
 $table-head-td-padding: 0.3em;
+$table-head-text-color: $white;
 
 $table-body-tr-bg-color-even: $grey-5;
 $table-body-tr-bg-color-odd: unset;
 $table-body-td-border: unset;
 $table-body-td-text-align: left;
 $table-body-td-padding: 0.3em;
-
-
+$table-body-text-color: unset;
 
 //Tabs
 $tabs-nav-margin-bottom: none;

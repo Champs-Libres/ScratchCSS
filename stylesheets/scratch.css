@@ -3878,16 +3878,17 @@ form li label {
 table {
   width: 100%; }
   table thead {
-    background-color: #FF622C;
-    color: #fff; }
+    background-color: #FF622C; }
     table thead tr th {
       border: unset;
       text-align: center;
-      padding: 0.3em; }
+      padding: 0.3em;
+      color: #fff; }
   table tbody tr td {
     border: unset;
     text-align: left;
-    padding: 0.3em; }
+    padding: 0.3em;
+    color: unset; }
   table tbody tr:nth-of-type(even) {
     background-color: #f2f2f2; }
   table tbody tr:nth-of-type(odd) {
