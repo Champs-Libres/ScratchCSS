@@ -46,7 +46,7 @@
       z-index: 9999;
 
       //@include media ($horizontal-bar-mode) {
-      display: inline;
+      display: inline-block;
       margin: 0;
       padding: 0;
       //}
