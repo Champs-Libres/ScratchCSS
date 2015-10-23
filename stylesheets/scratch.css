@@ -3303,7 +3303,8 @@ a {
       display: inline-block;
       vertical-align: middle; }
   .navigation .nav {
-    z-index: 9999999; }
+    z-index: 9999999;
+    height: 60px; }
   .navigation ul.navigation-menu {
     -webkit-transform-style: preserve-3d;
     clear: both;
