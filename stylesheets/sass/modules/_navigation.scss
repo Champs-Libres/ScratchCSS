@@ -23,7 +23,8 @@
       }
 
       img.logo {
-         height: $navigation-height - 10px;
+         max-width: 89%;
+         max-height: $navigation-height - 10px;
          display: inline-block;
          vertical-align: middle;
       }
