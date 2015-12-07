@@ -3570,12 +3570,6 @@ a {
 .text-right {
   text-align: right; }
 
-.inline-block {
-  display: inline-block; }
-
-.inline {
-  display: inline; }
-
 .navigation {
   background-color: #333333;
   border-bottom: 1px solid #1a1a1a;
@@ -3858,17 +3852,21 @@ label {
   padding-bottom: 0.5em;
   font-weight: bold;
   margin-bottom: 0.375em; }
-  label.inline {
-    display: inline;
-    line-height: 2em;
-    margin-right: 1em;
-    font-weight: normal; }
   label.required:after {
     content: "*";
     color: #C83D3D;
     font-weight: 900; }
   label abbr {
     display: none; }
+
+.inline-choice {
+  white-space: nowrap; }
+  .inline-choice label {
+    white-space: normal;
+    display: inline;
+    line-height: 2em;
+    margin-right: 1em;
+    font-weight: normal; }
 
 textarea,
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,

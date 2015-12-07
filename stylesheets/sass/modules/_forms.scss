@@ -16,13 +16,6 @@ label {
    font-weight: bold;
    margin-bottom: $base-spacing / 4;
 
-   &.inline {
-      display: inline;
-      line-height: 1 + ((2 * $base-spacing) / 3);
-      margin-right: 1em;
-      font-weight: normal;
-   }
-
    &.required:after {
       content: "*";
       color: $red;
@@ -31,6 +24,17 @@ label {
 
    abbr {
       display: none;
+   }
+}
+
+.inline-choice {
+   white-space:nowrap;
+   label {
+      white-space:normal;
+      display: inline;
+      line-height: 1 + ((2 * $base-spacing) / 3);
+      margin-right: 1em;
+      font-weight: normal;
    }
 }
 
